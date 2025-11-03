@@ -1,6 +1,6 @@
 # 🎨 Emotion Segmentation in Art : SAM + CLIP 기반 예술 작품 감정 시각화 프로젝트
 
-이 프로젝트는 Meta의 **Segment Anything Model (SAM)**과 OpenAI의 **CLIP**을 결합하여  
+이 프로젝트는 Meta의 Segment Anything Model (SAM)과 OpenAI의 CLIP을 결합하여  
 예술 작품의 영역별 감정을 자동으로 분석하고, 시각적으로 표현하는 Streamlit 앱입니다.
 <br/>
 <br/>
