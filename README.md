@@ -8,14 +8,13 @@
 
 ## 🧠 프로젝트 개요
 
+업로드한 예술 작품을 자동으로 분할한 뒤, 각 영역의 감정(joy, sadness, fear, calm, mystery 등)을 추정하고 색상으로 시각화합니다.
+
 | 모델 | 역할 |
 |------|------|
 | **SAM (Segment Anything)** | 이미지를 객체별로 세그멘테이션 |
 | **CLIP (Contrastive Language–Image Pretraining)** | 각 세그먼트의 감정적 분위기 분석 |
 | **Streamlit** | 웹 인터페이스 및 시각화 제공 |
-
-업로드한 예술 작품을 자동으로 분할한 뒤,  
-각 영역의 감정(joy, sadness, fear, calm, mystery 등)을 추정하고 색상으로 시각화합니다.
 <br/>
 <br/>
 
@@ -54,12 +53,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-브라우저에서 자동으로 열리는 URL (기본값 : http://localhost:8501)로 접속합니다.
+브라우저에서 자동으로 열리는 URL (기본값 : ```http://localhost:8501```)로 접속합니다.
 <br/>
 <br/>
 
 
 ## 🧩 기술 스택
+
 | 분류            | 사용 도구                        |
 | ------------- | ---------------------------- |
 | AI Model      | SAM (Meta AI), CLIP (OpenAI) |
