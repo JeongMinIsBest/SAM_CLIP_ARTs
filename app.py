@@ -51,7 +51,7 @@ uploaded = st.file_uploader("예술 작품 이미지를 업로드하세요!", ty
 if uploaded:
     image = Image.open(uploaded).convert("RGB")
     img_np = np.array(image)
-    st.image(image, caption="Original Artwork", use_container_width=True)
+    st.image(image, caption="Original Artwork", width='stretch')
 
     if st.button("▶️ 감정 분석 실행"):
         progress_text = "감정 기반 시각화 생성 중입니다..."
